@@ -10,8 +10,7 @@ public class App {
         System.out.println(s);
 
         Object b = null;
-        if (b != null) {
+        if (b != null)
             b.notify();
-        }
     }
 }
