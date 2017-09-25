@@ -6,8 +6,8 @@ package com.mycompany.app;
 public class App {
     public static void main(String[] args) {
         String s  = "Hello world";
-        s.replace(' ', 'x');
-        System.out.println(s);
+        String s2 = s.replace(' ', 'x');
+        System.out.println(s2);
 
         Object b = null;
         if (b != null)
